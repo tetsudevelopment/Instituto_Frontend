@@ -38,19 +38,21 @@
     </v-app-bar>
 
     <v-main>
-      <HelloWorld/>
+     
+      <LoginInst/>
     </v-main>
+
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld';
+import LoginInst from './components/LoginInst';
 
 export default {
   name: 'App',
 
   components: {
-    HelloWorld,
+    LoginInst,
   },
 
   data: () => ({
